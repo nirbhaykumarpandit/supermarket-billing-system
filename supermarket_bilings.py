@@ -93,7 +93,7 @@ def main():
     if start == "q":
         print("Goodbye 👋")
         return
-
+        # enter ur name
     while True:
         customer_name = input("\nEnter customer's name: ").strip()
         items, subtotal = get_customer_items()
